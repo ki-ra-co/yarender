@@ -1,6 +1,11 @@
 .listnewPage {
   .new_list {
+    background-color: palegreen;
     max-width: 500px;
     margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow:5px 5px 10px rgb(64, 209, 64);
   }
 }

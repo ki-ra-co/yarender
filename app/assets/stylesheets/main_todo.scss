@@ -31,6 +31,10 @@
             font-size: 18px;
             color: #8c8c8c;
           }
+          .fa-pen:hover, .fa-trash:hover {
+            font-size: 18px;
+            color: #f11313;
+          }
           .fa-trash {
             margin-right: 10px;
           }
@@ -61,13 +65,31 @@
             }
           }
         }
+        .card:hover {
+          height: 65px;
+          width: 227px;
+          border-radius: 5px;
+          padding: 10px;
+          box-shadow: none;
+          border-bottom: 4px solid rgb(241, 241, 241);
+          border-right: 4px solid rgb(241, 241, 241);
+        }
         .addCard {
           color: #8c8c8c;
           &_link {
             color: #8c8c8c;
+            text-decoration: none;
+          }
+          &_link:hover {
+            color: #5aeeee;
+            text-decoration: none;
+            text-shadow: 1px 1px #275050;
           }
         }
       }
+    }
+    .list:hover {
+      background-color: rgb(238, 238, 39);
     }
   }
 }
