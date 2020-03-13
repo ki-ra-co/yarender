@@ -1,6 +1,6 @@
 .carddetailPage {
   .cardContents {
-    background-color: rgb(172, 167, 158);
+    background-color: rgb(199, 194, 184);
     max-width: 500px;
     margin: 100px auto 0;
     padding: 30px;
@@ -13,7 +13,7 @@
       }
     }
     &_title, &_memo, &_listStatus {
-      border-bottom: 1px solid #ccc;
+      border-bottom: 3px solid #fff;
       margin-bottom: 30px;
     }
     &_btnArea {
