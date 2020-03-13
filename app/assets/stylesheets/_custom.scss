@@ -109,6 +109,27 @@ body {
   .title {
     margin: 0;
     text-align: center;
+    span {
+      color: palevioletred;
+      font-size: 50px;
+      text-shadow: 10px 20px 7px rgb(46, 25, 46);
+    }
+  }
+  .text-center p{
+    height: 50%;
+    width: 18%;
+    margin: 50px auto;
+    padding: 10px 10px;
+    background-color: orange;
+    border-radius: 21px;
+    cursor: pointer;
+    &:hover {
+      opacity: .7;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;;
+    }
   }
   .new_user {
     .form-group {
