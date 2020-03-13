@@ -72,7 +72,17 @@ body {
   margin-top: 10vh;
   .titleArea {
     text-align: center;
-    h1 {font-size: 2rem;}
+    h1 {
+      font-size: 2rem;
+      span {
+        color: rgb(247, 154, 234);
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 1px 1px 5px rgb(143, 104, 143);
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
   }
   .signupForm {
     .form-group {
@@ -99,8 +109,23 @@ body {
 
 // devise_shared_links
 .acountPage_link {
+  height: 50%;
+  width: 16%;
+  margin: 50px auto;
+  padding: 10px 10px;
+  background-color: orange;
+  border-radius: 21px;
+  cursor: pointer;
+  transition: opacity .5s;
+  &:hover {
+    opacity: .7;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;;
+  }
   & > a {
-    color: #0075c1;
+    color: #fff;
   }
 }
 // sign_in
