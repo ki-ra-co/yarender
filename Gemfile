@@ -70,6 +70,10 @@ gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
 
+gem 'fullcalendar-rails'
+
+gem 'momentjs-rails'
+
 gem 'font-awesome-sass', '~> 5.9.0'
 
 gem 'devise'
@@ -77,3 +81,4 @@ gem 'devise'
 group :production do
   gem 'unicorn', '5.4.1'
 end
+
