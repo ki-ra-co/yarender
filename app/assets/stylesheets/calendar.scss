@@ -1,7 +1,23 @@
-// Place all the styles related to the calendar controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 #calendar {
   height: 1000px;
+  margin: 100px;
+  .fc-row, .fc-week, .fc-widget-content {
+    margin: 10px;
+  }
+  .fc-day {
+    
+  }
+  .fc-right .fc-prev-button, .fc-right .fc-next-button {
+    background-color: #026aa7;
+    color: white;
+    font-weight: bold;
+    background-image: none;
+    border: none;
+   }
+  .fc-sun {
+    background-color: #eeaeae;
+   }
+   .fc-sat {
+     background-color: rgb(149, 243, 243);
+   }
 }
